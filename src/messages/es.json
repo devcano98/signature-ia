@@ -1,0 +1,52 @@
+
+{
+  "Index": {
+    "title": "SignatureAI",
+    "subtitle": "Crea una firma de correo profesional en segundos.",
+    "formTitle": "Tus Detalles",
+    "fullName": "Nombre Completo",
+    "jobTitle": "Cargo / Puesto",
+    "phone": "Teléfono",
+    "email": "Correo Electrónico",
+    "website": "Sitio Web",
+    "linkedin": "URL de LinkedIn",
+    "github": "URL de GitHub",
+    "designVibe": "Estilo de Diseño",
+    "previewTitle": "Vista Previa",
+    "copyHtml": "Copiar HTML",
+    "copiedHtml": "¡HTML Copiado!",
+    "copyText": "Copiar Texto",
+    "copiedText": "¡Texto Copiado!",
+    "vibes": {
+      "corporate": "Corporativo",
+      "creative": "Creativo",
+      "minimalist": "Minimalista"
+    },
+    "placeholders": {
+        "fullName": "Ej. Juan Pérez",
+        "jobTitle": "Ej. Arquitecto de Software",
+        "phone": "+34 123 456 789",
+        "email": "juan@ejemplo.com",
+        "website": "https://ejemplo.com",
+        "linkedin": "linkedin.com/in/juan",
+        "github": "github.com/juan"
+    },
+    "enhanceWithAi": "Mejorar con IA"
+  },
+  "Auth": {
+    "title": "Crear una cuenta",
+    "subtitle": "Ingresa tu correo para crear tu cuenta",
+    "quote": "Esta librería me ha ahorrado incontables horas de trabajo y me ha ayudado a entregar diseños increíbles a mis clientes más rápido que nunca.",
+    "continueWithGoogle": "Continuar con Google",
+    "continueWithGithub": "Continuar con GitHub",
+    "unlockTitle": "Desbloquea Superpoderes IA 🚀",
+    "unlockDescription": "Inicia sesión para generar cargos profesionales y mejorar tu firma con IA."
+  },
+  "Navigation": {
+    "login": "Iniciar Sesión",
+    "generator": "Generador",
+    "account": "Cuenta",
+    "settings": "Ajustes",
+    "loginSignUp": "Entrar / Registrarse"
+  }
+}

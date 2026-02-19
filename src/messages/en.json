@@ -1,0 +1,52 @@
+
+{
+  "Index": {
+    "title": "SignatureAI",
+    "subtitle": "Create a professional email signature in seconds.",
+    "formTitle": "Your Details",
+    "fullName": "Full Name",
+    "jobTitle": "Job Title",
+    "phone": "Phone",
+    "email": "Email",
+    "website": "Website",
+    "linkedin": "LinkedIn URL",
+    "github": "GitHub URL", 
+    "designVibe": "Design Vibe",
+    "previewTitle": "Live Preview",
+    "copyHtml": "Copy HTML",
+    "copiedHtml": "Copied HTML!",
+    "copyText": "Copy Text",
+    "copiedText": "Copied Text!",
+    "vibes": {
+      "corporate": "Corporate",
+      "creative": "Creative",
+      "minimalist": "Minimalist"
+    },
+    "placeholders": {
+        "fullName": "Ex. Jane Doe",
+        "jobTitle": "Ex. Software Architect",
+        "phone": "+1 234 567 890",
+        "email": "jane@example.com",
+        "website": "https://example.com",
+        "linkedin": "linkedin.com/in/jane",
+        "github": "github.com/jane"
+    },
+    "enhanceWithAi": "Enhance with AI"
+  },
+  "Auth": {
+    "title": "Create an account",
+    "subtitle": "Enter your email below to create your account",
+    "quote": "This library has saved me countless hours of work and helped me deliver stunning designs to my clients faster than ever before.",
+    "continueWithGoogle": "Continue with Google",
+    "continueWithGithub": "Continue with GitHub",
+    "unlockTitle": "Unlock AI Superpowers 🚀",
+    "unlockDescription": "Sign in to generate professional job titles and enhance your signature with AI."
+  },
+  "Navigation": {
+    "login": "Login",
+    "generator": "Generator",
+    "account": "Account",
+    "settings": "Settings",
+    "loginSignUp": "Login / Sign Up"
+  }
+}

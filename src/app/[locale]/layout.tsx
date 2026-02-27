@@ -6,6 +6,7 @@ import "../globals.css";
 import type { Metadata } from "next";
 import Header from "@/components/layout/header";
 import Footer from "@/components/layout/footer";
+import ProviderToaster from "@/components/ui/toaster";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -47,6 +48,7 @@ export default async function LocaleLayout({
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
+            <ProviderToaster />
             <Header />
             <main className="mt-[94px] px-8 pb-8 pt-0 transition-colors duration-300">
               {children}

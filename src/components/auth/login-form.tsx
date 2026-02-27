@@ -8,6 +8,7 @@ import { Button } from "@/components/ui/button";
 import { signIn } from "next-auth/react";
 import { Github, Loader2 } from "lucide-react";
 import { useState } from "react";
+import toast from "react-hot-toast";
 
 // Schema for potential future email/password login
 const formSchema = z.object({
@@ -27,8 +28,10 @@ export function LoginForm() {
     setIsLoading(true);
     try {
       await signIn(provider, { callbackUrl: "/generator" });
+      toast.success("Login successful");
     } catch (error) {
       console.error(error);
+      toast.error("Login failed");
     } finally {
       setIsLoading(false);
     }

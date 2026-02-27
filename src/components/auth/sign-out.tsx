@@ -2,10 +2,16 @@ import { signOut } from "@/auth";
 import { Button } from "@/components/ui/button";
 
 export function SignOut() {
-  const out = async () => await signOut();
   return (
-    <form action={out} className="w-full">
+    <form
+      action={async () => {
+        "use server";
+        await signOut({ redirectTo: "/" });
+      }}
+      className="w-full"
+    >
       <Button
+        type="submit"
         variant="ghost"
         className="w-full justify-start p-0 h-auto font-normal"
       >
